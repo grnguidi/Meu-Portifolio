@@ -1,0 +1,98 @@
+.cabecalho {
+    /* background-color: #2d5377;
+    color: #fff; */
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+    color: #fff;
+    background-color: #074663; 
+}
+
+.cabecalho-logo{
+    padding: 1.5em 0;
+    width: 14.5em;
+}
+
+.cabecalho-item-menu{
+    display: inline-block;
+}
+
+.cabecalho-item-menu a {
+    display: inline-block;
+    padding: 1.86em 1.42em;
+}
+
+@media (min-width: 640px) {
+    .cabecalho {
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .cabecalho-menu{
+        background-color: transparent;
+    }
+    
+    .cabecalho-logo{
+        padding: 2.5em 0;
+    }
+}
+
+.cabecalho-menu{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 770px) {
+    .cabecalho-item-menu{
+        margin-left: 1.42em;
+        border-radius: 6px;
+        background-color: black;
+    }
+    .cabecalho-item-menu-contrate a{
+        padding: 1.83m 3.5em;
+    }
+}
+@media (min-width: 1066px) {
+    .cabecalho{
+        padding-left: calc((100% - 960px)/2);
+        padding-right: calc((100% - 960px)/2);
+    }
+}
+
+
+/* .body{
+    background-color: #2C3639;
+} */
+
+h2 {
+    border-bottom: 2px solid black;
+}
+.mlkisopor {
+    width: 30%;
+    height: 30%;
+}
+
+.rodape {
+    padding: 1.75em 0;
+    font-size: 1.1rem;
+}
+
+.rodape-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.rodape-social {
+    width: 2%;
+    height: 2%;
+}
+body{
+    text-align: center;
+}
+
